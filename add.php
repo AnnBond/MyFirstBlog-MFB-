@@ -1,7 +1,6 @@
 <?php
 include_once('db.php');
 
-
 if (isset($_POST['add'])) {
     if (!empty($_POST['title']) && !empty($_POST['description'])) {
         $STH = $DBH->prepare("INSERT INTO post (title, description, date) VALUES (:title, :description, CURRENT_DATE())");
