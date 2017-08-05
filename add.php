@@ -22,10 +22,10 @@ include ('header.php');
             <section class="addPost clearfix">
                 <form class="newPost" method="post" action="add.php">
                     <label>Title: <br>
-                        <input type="text" class="add-post-title" name="title" placeholder="Title of post"  />
+                        <input type="text" class="add-post-title" name="title" placeholder="Title of post" required/>
                     </label>
                     <label>Post:
-                        <textarea name="description" cols="74" rows="10" placeholder="Some interesting..." ></textarea>
+                        <textarea name="description" cols="74" rows="10" placeholder="Some interesting..." required></textarea>
                     </label>
                     <button type="submit" class="submit" name="add">Submit</button>
                 </form>
