@@ -1,6 +1,3 @@
-            <div class="addPostBtn">
-                <a href="add.php">ADD POST</a>
-            </div>
-        </div>
+        </div><!--end wrapper-->
     </body>
 </html>
