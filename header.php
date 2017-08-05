@@ -21,3 +21,9 @@
                 <input type="submit" value="SEARCH" class="searchBtn">
             </form>
         </div>
+        <div class="loginBtn">
+            <a href="<?= $url; ?>"><?= $switchLog; ?></a>
+        </div>
+        <div class="cabinet">
+            <a href=adminPanel.php><?= isset($_COOKIE['userName']) ? $_COOKIE['userName'] : '' ?></a>
+        </div>
