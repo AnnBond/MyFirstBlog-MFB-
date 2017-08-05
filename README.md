@@ -7,6 +7,7 @@ practice my skills on php
 <p>Search by name</p>
 <p>Make separate footer and header</p>
 <p>Add some styles</p>
+<p>Cookies</p>
 <p>#Need to do:</p>
 <p>Fix pagination on search page</p>
 <p>Make sidebar with: latest, calendar, search, tags</p>
